@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{2470a5c0-9bac-4e81-a35e-1004cdab04fa}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="MapManager">
+      <UniqueIdentifier>{a8e4da4b-c405-4ba9-8730-bfc08915b4f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataParser">
+      <UniqueIdentifier>{c58cb262-09c1-4127-ae8e-379756041a05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GeoRender">
+      <UniqueIdentifier>{d1365b0b-cb3b-46ef-9e38-8629278b09f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GeoData">
+      <UniqueIdentifier>{db7c94a1-e5b9-4eef-a1e8-70d3d60e50a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Files">
+      <UniqueIdentifier>{f65c3190-ca0d-4610-b51c-82e2b48b8ad4}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{813d5cf1-387b-4200-b418-fff6a23c7f8a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Main Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TXDViewer2.cpp">
+      <Filter>Main Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoData\TXDFeatureSet.cpp">
+      <Filter>GeoData</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager\Layer.cpp">
+      <Filter>MapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager\MapManager.cpp">
+      <Filter>MapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DataParser\BigFileReader.cpp">
+      <Filter>DataParser</Filter>
+    </ClCompile>
+    <ClCompile Include="DataParser\ParseFeatureSet.cpp">
+      <Filter>DataParser</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoData\SHPFeatureSet.cpp">
+      <Filter>GeoData</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoData\FeatureSet.cpp">
+      <Filter>GeoData</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoData\PostGISFeatureSet.cpp">
+      <Filter>GeoData</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorCode.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="LegendTreeCtrl.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="strtk.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TXDViewer2View.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoData\Feature.h">
+      <Filter>GeoData</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoData\FeatureSet.h">
+      <Filter>GeoData</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoData\TXDFeatureSet.h">
+      <Filter>GeoData</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager\MapManager.h">
+      <Filter>MapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoRender\GDIRender.h">
+      <Filter>GeoRender</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager\Layer.h">
+      <Filter>MapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DataParser\BigFileReader.h">
+      <Filter>DataParser</Filter>
+    </ClInclude>
+    <ClInclude Include="DataParser\ParseFeatureSet.h">
+      <Filter>DataParser</Filter>
+    </ClInclude>
+    <ClInclude Include="DataParser\TXDTypes.h">
+      <Filter>DataParser</Filter>
+    </ClInclude>
+    <ClInclude Include="IdentifyDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DataParser\IDataReader.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DataParser\ShapefileReader.h">
+      <Filter>DataParser</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoData\SHPFeatureSet.h">
+      <Filter>GeoData</Filter>
+    </ClInclude>
+    <ClInclude Include="LocateDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManagerDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="dbprops.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoData\PostGISFeatureSet.h">
+      <Filter>GeoData</Filter>
+    </ClInclude>
+    <ClInclude Include="DataParser\PostGISReader.h">
+      <Filter>DataParser</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaInfoDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectDBDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TXDViewer2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Checked.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Layers.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico5.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Unchecked.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Find.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Identify.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TXDViewer2.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ZoomIn.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ZoomOut.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HandClose.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

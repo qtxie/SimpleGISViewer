@@ -1,0 +1,19 @@
+How to compile the project
+==========================
+
+
+   These are generic compilation instructions.
+
+The solution compiles with Microsoft Visual Studio 2012, and also with the VS2005.
+If use VS2012 express, you need to install VS2012 update1 and Windows SDK. 
+We turn off C++ exception handler (/EHsc, we don't need it ;-) ) to produce faster and small code.
+
+	Links
+The folllowing links are needed or useful for compiling the projects:
+
+ Microsoft WTL library
+ http://wtl.sourceforge.net
+
+ If you familiar with MFC, you will find WTL is very easy.
+
+qtxie

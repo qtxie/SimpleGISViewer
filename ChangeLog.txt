@@ -1,0 +1,21 @@
+2013-6-08 v2.2.7
+		  1. FIX Bug: database cursor can't scroll back
+2013-5-10 v2.2.6
+		  1. tidying up code, commit to SVN.
+2013-4-22 v2.2.5
+		  1. Add support for SP record
+2013-4-17 v2.2.4
+		  1. Optimize for record which has lots of points.
+2013-4-13 v2.2.3
+          1. Support SQL query for PostGIS
+2013-4-03 v2.2.2
+          1. Support 'GEOMETRY' in PostGIS
+          2. Fix Bug: can't add/edit a connection
+
+2013-4-01 v2.2.1 
+          1. Support URI hostname when connect PostGIS
+          2. Fix Bug: crash when not set id column.
+		  
+2013-3-31 Add PostGIS support (Partly), Skip version to 2.2.0
+
+2013-3-24 Initial version 2.0.1

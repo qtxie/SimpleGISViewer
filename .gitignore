@@ -1,0 +1,47 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# User special files
+*.user
+
+# log files
+*.log
+*.tlog
+
+# others
+*.suo
+*.lastbuildstate
+*.unsuccessfulbuild
+*.pch
+*.res
+*.sdf
+*.htm
+*.XML
+*.ipch
+*.exe
+*.res
+*.idb
+*.pdb
+*.ilk
+*.opensdf
+*.zip
+*.orig
+*.ncb
+*.dep
+*.manifest
+*.exp
+*.suo
