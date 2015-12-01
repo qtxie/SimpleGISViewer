@@ -5,7 +5,7 @@ A simple GIS viewer. Very fast and low memory usage.
 
 <img src="http://xie.neocities.org/sgisviewer.png" border="0" />
 
-## Functions
+## Features
 
 1. In 'Pan' Mode, Mouse left button down to move map
 2. In 'Identify' Mode, 
